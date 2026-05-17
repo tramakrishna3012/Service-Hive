@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server@latest"],
+      "env": {
+        "MDB_MCP_API_CLIENT_ID": "mdb_sa_id_your-client-id",
+        "MDB_MCP_API_CLIENT_SECRET": "mdb_sa_sk_your-client-secret"
+      }
+    }
+  }
+}
